@@ -56,7 +56,7 @@ new CounterPlugin({
   rootSelector: '#counter-1',
   step: 10,
   initialValue: 100,
-  onUpdate: () => console.log('Это мой кастомный колбек для onUpdate'),
+  // onUpdate: () => console.log('Мой кастомный колбек onUpdate для CounterPlugin'),
 });
 
 new CounterPlugin({ rootSelector: '#counter-2', step: 2 });
